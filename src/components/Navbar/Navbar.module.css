@@ -1,8 +1,17 @@
 .nav {
   grid-area: n;
-  background-color: gray;
+  background-color: steelblue;
+  padding: 20px;
+  font-size: large;
+  margin-right: 10px;
+  border-radius: 10px;
 }
 
-.item {
+.item a {
   color: whitesmoke;
+  text-decoration: none;
+}
+
+.item a.active {
+  color: black;
 }
